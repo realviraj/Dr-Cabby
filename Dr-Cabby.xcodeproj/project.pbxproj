@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C04B39D91F6B39A7007D8693 /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04B39D81F6B39A7007D8693 /* RoundedImage.swift */; };
 		C0512FE21F6B1E5700A1B428 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0512FE11F6B1E5700A1B428 /* AppDelegate.swift */; };
 		C0512FE41F6B1E5700A1B428 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0512FE31F6B1E5700A1B428 /* ViewController.swift */; };
 		C0512FE71F6B1E5700A1B428 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0512FE51F6B1E5700A1B428 /* Main.storyboard */; };
 		C0512FE91F6B1E5700A1B428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0512FE81F6B1E5700A1B428 /* Assets.xcassets */; };
 		C0512FEC1F6B1E5700A1B428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0512FEA1F6B1E5700A1B428 /* LaunchScreen.storyboard */; };
+		C0EB92761F6C35F9002D228E /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB92751F6C35F9002D228E /* GradientView.swift */; };
+		C0EB92781F6C5F89002D228E /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB92771F6C5F89002D228E /* ShadowView.swift */; };
+		C0EB927A1F6C6863002D228E /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB92791F6C6863002D228E /* CircleView.swift */; };
+		C0EB927C1F6C7406002D228E /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB927B1F6C7406002D228E /* RoundedButton.swift */; };
 		D24150A6419D6F99D766BE02 /* Pods_Dr_Cabby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74A630CA32D1C6B823F8244 /* Pods_Dr_Cabby.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		270AD3FE78E40210877CC4C4 /* Pods-Dr-Cabby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dr-Cabby.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dr-Cabby/Pods-Dr-Cabby.debug.xcconfig"; sourceTree = "<group>"; };
 		6B51BCD4FB0E9395B068C5B4 /* Pods-Dr-Cabby.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dr-Cabby.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dr-Cabby/Pods-Dr-Cabby.release.xcconfig"; sourceTree = "<group>"; };
+		C04B39D81F6B39A7007D8693 /* RoundedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
 		C0512FDE1F6B1E5700A1B428 /* Dr-Cabby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dr-Cabby.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0512FE11F6B1E5700A1B428 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0512FE31F6B1E5700A1B428 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,6 +31,10 @@
 		C0512FE81F6B1E5700A1B428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0512FEB1F6B1E5700A1B428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0512FED1F6B1E5700A1B428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0EB92751F6C35F9002D228E /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		C0EB92771F6C5F89002D228E /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		C0EB92791F6C6863002D228E /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		C0EB927B1F6C7406002D228E /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		E74A630CA32D1C6B823F8244 /* Pods_Dr_Cabby.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dr_Cabby.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -49,6 +59,39 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C04B39D41F6B3969007D8693 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C04B39D81F6B39A7007D8693 /* RoundedImage.swift */,
+				C0EB92751F6C35F9002D228E /* GradientView.swift */,
+				C0EB92771F6C5F89002D228E /* ShadowView.swift */,
+				C0EB92791F6C6863002D228E /* CircleView.swift */,
+				C0EB927B1F6C7406002D228E /* RoundedButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C04B39D51F6B3970007D8693 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C04B39D61F6B3979007D8693 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Constant;
+			sourceTree = "<group>";
+		};
+		C04B39D71F6B3980007D8693 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
 		C0512FD51F6B1E5700A1B428 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +113,10 @@
 		C0512FE01F6B1E5700A1B428 /* Dr-Cabby */ = {
 			isa = PBXGroup;
 			children = (
+				C04B39D71F6B3980007D8693 /* Utilities */,
+				C04B39D61F6B3979007D8693 /* Constant */,
+				C04B39D51F6B3970007D8693 /* Model */,
+				C04B39D41F6B3969007D8693 /* View */,
 				C0512FF31F6B1E6300A1B428 /* Controller */,
 				C0512FE11F6B1E5700A1B428 /* AppDelegate.swift */,
 				C0512FE31F6B1E5700A1B428 /* ViewController.swift */,
@@ -220,8 +267,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0EB927A1F6C6863002D228E /* CircleView.swift in Sources */,
+				C04B39D91F6B39A7007D8693 /* RoundedImage.swift in Sources */,
 				C0512FE41F6B1E5700A1B428 /* ViewController.swift in Sources */,
+				C0EB92761F6C35F9002D228E /* GradientView.swift in Sources */,
+				C0EB927C1F6C7406002D228E /* RoundedButton.swift in Sources */,
 				C0512FE21F6B1E5700A1B428 /* AppDelegate.swift in Sources */,
+				C0EB92781F6C5F89002D228E /* ShadowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +441,7 @@
 				C0512FF21F6B1E5700A1B428 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
